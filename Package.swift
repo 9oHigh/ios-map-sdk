@@ -1,32 +1,28 @@
 // swift-tools-version:5.3
+
 import PackageDescription
 
 let package = Package(
-    name: "NaverMapsSDK",
+    name: "NMapsMap",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v9)
     ],
     products: [
         .library(
             name: "NMapsMap",
-            targets: ["NMapsMap"]
-        ),
-        .library(
-            name: "NMapsGeometry",
-            targets: ["NMapsGeometry"]
-        )
+            targets: ["NMapsMap"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/navermaps/ios-map-sdk.git", .branch("master"))
-    ],
+    dependencies: [],
     targets: [
-        .target(
+        .binaryTarget(
             name: "NMapsMap",
-            dependencies: ["NMapsGeometry"]
+            url: "https://github.com/navermaps/ios-map-sdk/releases/download/3.18.1/NMapsMap.xcframework.zip",
+            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
         ),
-        .target(
+        .binaryTarget(
             name: "NMapsGeometry",
-            dependencies: []
-        )
+            url: "https://github.com/navermaps/ios-map-sdk/releases/download/3.18.1/NMapsGeometry.xcframework.zip",
+            checksum: "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+        ),
     ]
 )
