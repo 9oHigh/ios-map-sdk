@@ -121,7 +121,6 @@
 		438AA5F1213D416B004D1053 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		438AA5F4213D416B004D1053 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		438AA5F6213D416B004D1053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		438AA600213D41A5004D1053 /* NMapsMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NMapsMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		438AA612213D4D8C004D1053 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		438AA614213D4DAB004D1053 /* Basic.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Basic.storyboard; sourceTree = "<group>"; };
 		4390A88221551DC90008CDC8 /* MinMaxZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinMaxZoomViewController.swift; sourceTree = "<group>"; };
@@ -252,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				4C4053002C21C04C00F60ECC /* Package.swift */,
-				438AA600213D41A5004D1053 /* NMapsMap.framework */,
 				438AA5E7213D416A004D1053 /* NaverMapDemo */,
 				438AA5E6213D416A004D1053 /* Products */,
 				CE06435B287BFEA400FD148E /* Frameworks */,
