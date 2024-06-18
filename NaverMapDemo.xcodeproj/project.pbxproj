@@ -160,8 +160,6 @@
 		43F5EEDF2161E3F600244E08 /* Misc.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Misc.storyboard; sourceTree = "<group>"; };
 		43F9639A2199792E009DAF98 /* LiteModeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiteModeViewController.swift; sourceTree = "<group>"; };
 		4C4053002C21C04C00F60ECC /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		75C580944358B1F3EF58E8FF /* Pods_NaverMapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverMapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE06435C287BFEA400FD148E /* NMapsGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NMapsGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE12305B21F5C3E100A9B9FC /* GlobalZIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalZIndexViewController.swift; sourceTree = "<group>"; };
 		CE13A1D6238FAEF800CB412D /* OverlayMinMaxZoomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayMinMaxZoomController.swift; sourceTree = "<group>"; };
 		CE56F6F22A41013C00E75518 /* NaverMapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaverMapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,8 +169,6 @@
 		CE5BB40223BB17A200FF24A3 /* ValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueView.swift; sourceTree = "<group>"; };
 		CE5BB40423BB264900FF24A3 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		CE76D7D423C2FF860007F0D6 /* CustomControlLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomControlLayoutViewController.swift; sourceTree = "<group>"; };
-		CE83A31C2BD88E8300067DCD /* NMapsGeometry.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NMapsGeometry.xcframework; path = Pods/NMapsGeometry/framework/NMapsGeometry.xcframework; sourceTree = "<group>"; };
-		CE83A3202BD88E8600067DCD /* NMapsMap.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NMapsMap.xcframework; path = Pods/NMapsMap/framework/NMapsMap.xcframework; sourceTree = "<group>"; };
 		CE8491F72BA2B75700703A23 /* seoul_toilet.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seoul_toilet.csv; sourceTree = "<group>"; };
 		CEB2B84A26BA2CFE002ED948 /* MaxTiltViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxTiltViewController.swift; sourceTree = "<group>"; };
 		CED898B42BA1C01E00A35541 /* Clustering.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clustering.storyboard; sourceTree = "<group>"; };
@@ -346,10 +342,6 @@
 		CE06435B287BFEA400FD148E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE83A31C2BD88E8300067DCD /* NMapsGeometry.xcframework */,
-				CE83A3202BD88E8600067DCD /* NMapsMap.xcframework */,
-				CE06435C287BFEA400FD148E /* NMapsGeometry.framework */,
-				75C580944358B1F3EF58E8FF /* Pods_NaverMapDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

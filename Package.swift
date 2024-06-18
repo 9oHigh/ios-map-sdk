@@ -1,12 +1,5 @@
-//
-//  Package.swift
-//  NaverMapDemo
-//
-//  Created by Lee on 6/18/24.
-//  Copyright © 2024 NaverCorp. All rights reserved.
-//
-
 // swift-tools-version:5.3
+
 import PackageDescription
 
 let package = Package(
