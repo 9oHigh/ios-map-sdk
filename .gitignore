@@ -5,3 +5,13 @@ Podfile.lock
 Pods
 UserInterfaceState.xcuserstate
 contents.xcworkspacedata
+
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+.build/
